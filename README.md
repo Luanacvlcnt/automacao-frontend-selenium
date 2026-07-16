@@ -39,4 +39,4 @@ src/test/java/testes/
 - [ ] Adicionar esperas explícitas (WebDriverWait)
 - [ ] Implementar relatórios com Extent Reports
 - [ ] Adicionar testes de cenários negativos (login inválido)
-- [ ] Configurar execução via GitHub Actions
+- [x] Configurar execução via GitHub Actions
