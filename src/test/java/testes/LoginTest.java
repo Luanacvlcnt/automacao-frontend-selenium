@@ -39,7 +39,7 @@ public class LoginTest {
 	void testLogin() {
 		logger.info("Iniciando teste de login");
 
-		LoginPageFactory lp = new LoginPageFactory(driver);
+		LoginPage lp = new LoginPage(driver);
 		lp.setUserName("Admin");
 		lp.setPassword("admin123");
 		lp.clickLogin();
