@@ -12,12 +12,12 @@ Automatizar o fluxo de login da aplicação, aplicando boas práticas de organiz
 - Selenium WebDriver 4 - automação do navegador
 - TestNG - framework de testes
 - Maven - gerenciamento de dependências e build
-- Page Object Model (POM) com Page Factory - padrão de projeto para organização dos elementos e ações da página
+- Page Object Model (POM) - padrão de projeto para organização dos elementos e ações da página
 
 ## Estrutura do projeto
 
 src/test/java/testes/
-├── LoginPageFactory.java   -> Page Object com elementos e ações da tela de login
+├── LoginPage.java   -> Page Object com elementos e ações da tela de login
 └── LoginTest.java          -> Classe de teste do fluxo de login
 
 ## Como executar
